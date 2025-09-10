@@ -1,13 +1,30 @@
-
+TESTE DA NOVA BRANCH
 
 Passo1: git config --global user.name "nomeNoUserNoGithub"
 Passo2: git config --global user.email "nomeDoEmailNoHithub"
 Primeira e única vez no computador
 
+…or create a new repository on the command line
+
+git add             (criar o pacote)                   git add . (. é tudo)
+git commit          (coloca a descrição do pacote)
+git push            (envia o pacote)
+
 echo "# git_mc5" >> README.md
 git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
+git add README.md                 
+git commit -m "descriçãoDaAlteração"    
+git branch -M main                        (na primeira demostração foi pulado)
 git remote add origin https://github.com/michelfaucz/git_mc5.git
+git push -u origin main                   (na primeira vez deu erro e teve que rodar git push --set-upstream origin master) 
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/michelfaucz/git_mc5.git
+git branch -M main
 git push -u origin main
+
+
+----------------outros comandos
+
+git checkout -b teste123
