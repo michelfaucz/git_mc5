@@ -1,0 +1,13 @@
+
+
+Passo1: git config --global user.name "nomeNoUserNoGithub"
+Passo2: git config --global user.email "nomeDoEmailNoHithub"
+Primeira e única vez no computador
+
+echo "# git_mc5" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/michelfaucz/git_mc5.git
+git push -u origin main
