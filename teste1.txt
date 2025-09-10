@@ -27,4 +27,5 @@ git push -u origin main
 
 ----------------outros comandos
 
-git checkout -b teste123
+git checkout -b teste123 // criar uma outra branch como cópia
+git pull // atualizar local do github para maquina
