@@ -1,1 +1,3 @@
 //teste de cadastro
+
+// teste do comando fectch
